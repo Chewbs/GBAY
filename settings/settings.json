@@ -1,0 +1,24 @@
+{
+    "port": 3000,
+    "db": {
+        "mongo": {
+            "url": ""
+        },
+        "sql": {
+            "host": "",
+            "name": "",
+            "url": ""
+        }
+    },
+    "cache": {
+        "duration": 30000
+    },
+    "security": {
+        "salt": "",
+        "roles": [
+            "Admin",
+            "Customer",
+            "Salesman"
+        ]
+    }
+}
